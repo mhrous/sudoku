@@ -1,0 +1,20 @@
+body {
+  background: #1890ff;
+}
+
+#game-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /*  */
+}
+
+.header {
+}
+.content {
+  margin-bottom: 10px;
+  min-width: 200px;
+  min-height: 200px;
+}

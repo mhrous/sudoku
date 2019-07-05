@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SUDOKO</title>
+
+    <link rel="stylesheet" href="./lib/semantic-ui.css" />
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div id="game-container">
+      <div class="header">
+        <button class="ui    button">easy</button>
+        <button class="ui    button">medium</button>
+        <button class="ui    button">hard</button>
+        <button class="ui    button">very-hard</button>
+        <button class="ui    button">insane</button>
+        <button class="ui   button">inhuman</button>
+      </div>
+      <div class="content">
+        <div class="input-container"></div>
+        <div class="game"></div>
+        <div class="explained_container"></div>
+      </div>
+      <div class="footer"></div>
+    </div>
+
+    <script src="./lib/jquery.js"></script>
+    <script src="./lib/sudoku-generator.js"></script>
+    <script src="./lib/semantic_ui.js"></script>
+    <script src="./src/sudoku.js"></script>
+    <script src="./src/main.js"></script>
+  </body>
+</html>
